@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+header {
+  background-color: gold;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999; 
+}
+
+footer {
+  background-color: gold;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999; 
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 7px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 1rem;
+  background-color: blueviolet; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color:#000000;
+}
+
+.card-info {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;  
+}
+
+.card-info img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.card-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-info p {
+  margin-bottom: 5px;
+}
+
+.card-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-info li {
+  margin-bottom: 5px;
+}
+
+.banner {
+  height: 18px;
+}
