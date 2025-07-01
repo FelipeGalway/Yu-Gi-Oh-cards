@@ -1,49 +1,95 @@
-## Definição
-Este é um projeto React que consome uma API pública para fornecer informações detalhadas sobre cartas do jogo Yu-Gi-Oh!. Através deste projeto, você pode acessar dados como o nome da carta, tipo, raça, atributo, nível, ataque, defesa e muito mais.
+# 📌 Sobre o Projeto
 
-## Tecnologias Utilizadas
-- React
-- JavaScript
-- HTML
-- CSS
+Este aplicativo fornece uma maneira prática e rápida de consultar cartas do jogo **Yu-Gi-Oh!** por nome, permitindo explorar dados como:
 
-## Como Usar
-Para usar a aplicação, siga estes passos simples:
+- Nome da carta
+- Tipo (Monstro, Feitiço, Armadilha)
+- Raça
+- Atributo
+- Nível
+- ATK / DEF
+- Imagem da carta
 
-1. Clone este repositório em sua máquina local usando o seguinte comando:
-git clone https://seu-repositorio.git
+A aplicação é responsiva e utiliza uma API pública para obter os dados em tempo real.
 
-2. Navegue até o diretório do projeto:
-cd nome-do-diretorio
+---
 
-3. Instale as dependências necessárias:
+# 🚀 Tecnologias Utilizadas
+
+- ⚛️ [React](https://reactjs.org/)
+- 💡 JavaScript (ES6+)
+- 🎨 HTML5 + CSS3
+- 🔗 [Yu-Gi-Oh! API](https://db.ygoprodeck.com/api-guide/)
+
+---
+
+# 🛠️ Como Executar o Projeto
+
+> Siga os passos abaixo para rodar o projeto localmente.
+
+### 1️⃣ Clone o repositório
+
+```bash
+git clone https://github.com/FelipeGalway/Yu-Gi-Oh-cards.git
+```
+
+### 2️⃣ Acesse o diretório do projeto
+```bash
+cd Yu-Gi-Oh-cards
+```
+
+### 3️⃣ Instale as dependências
+```bash
 npm install
+```
 
-4. Inicie o servidor de desenvolvimento:
+### 4️⃣ Inicie o servidor de desenvolvimento
+```bash
 npm start
+```
 
-5. Abra o navegador e acesse http://localhost:3000 para visualizar a aplicação.
+### 5️⃣ Acesse no navegador
+Abra o navegador e acesse:
 
-6. Adicione o nome da carta desejada no campo de busca, conforme o tipo de cada carta. A API responderá com os dados da carta solicitada.
+```arduino
+http://localhost:3000
+```
 
-## Exemplos de cartas que são retornadas pela API
-Cartas tipo Monstro (Monster):
+---
+
+# 🔍 Como Utilizar
+Digite o nome de uma carta de acordo com o tipo (Monstro, Feitiço ou Armadilha) no campo de busca. A aplicação irá buscar automaticamente os dados da carta através da API.
+
+## 💡 Exemplos de Cartas
+### 🐉 Monstros
 - Dark Magician
 - Blue-Eyes White Dragon
 - Ancient Lizard Warrior
 - Red-Eyes Black Dragon
 
-Cartas tipo Feitiço (Spell):
+### ✨ Feitiços
 - Nightmare's Steelcage
 - World Legacy Key
 - Vision with Eyes of Blue
 - Ultimate Fusion
 
-Cartas tipo Armadilha (Trap):
+### 🛡️ Armadilhas
 - World Legacy Whispers
 - Icejade Erosion
 - Dinomorphia Domain
 - D/D/D Headhunt
 
-## Observação
-Certifique-se de que sua conexão com a Internet está ativa para que a aplicação possa buscar os dados da API corretamente. É importante também se atentar aos campos de busca e pesquisar a carta no campo correto.
+---
+
+# ⚠️ Observações
+Certifique-se de estar conectado à internet, pois os dados são carregados via requisições à API pública.
+Digite corretamente o nome da carta (sensível a acentos e pontuação).
+As cartas devem ser buscadas de acordo com seu tipo para obter resultados corretos.
+
+---
+
+# 🤝 Contribuindo
+1. Fork o projeto
+2. Crie uma branch com sua feature
+3. Faça commit das alterações
+4. Envie um Pull Request
