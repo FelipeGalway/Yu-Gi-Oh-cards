@@ -1,4 +1,6 @@
-# 📌 Sobre o Projeto
+# Yu-Gi-Oh! Card Search
+
+## 📌 Sobre o Projeto
 
 Este aplicativo fornece uma maneira prática e rápida de consultar cartas do jogo **Yu-Gi-Oh!** por nome, permitindo explorar dados como:
 
@@ -14,7 +16,7 @@ A aplicação é responsiva e utiliza uma API pública para obter os dados em te
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - ⚛️ [React](https://reactjs.org/)
 - 💡 JavaScript (ES6+)
@@ -23,7 +25,7 @@ A aplicação é responsiva e utiliza uma API pública para obter os dados em te
 
 ---
 
-# 🛠️ Como Executar o Projeto
+## 🛠️ Como Executar o Projeto
 
 > Siga os passos abaixo para rodar o projeto localmente.
 
@@ -57,23 +59,23 @@ http://localhost:3000
 
 ---
 
-# 🔍 Como Utilizar
+## 🔍 Como Utilizar
 Digite o nome de uma carta de acordo com o tipo (Monstro, Feitiço ou Armadilha) no campo de busca. A aplicação irá buscar automaticamente os dados da carta através da API.
 
-## 💡 Exemplos de Cartas
-### 🐉 Monstros
+### 💡 Exemplos de Cartas
+#### 🐉 Monstros
 - Dark Magician
 - Blue-Eyes White Dragon
 - Ancient Lizard Warrior
 - Red-Eyes Black Dragon
 
-### ✨ Feitiços
+#### ✨ Feitiços
 - Nightmare's Steelcage
 - World Legacy Key
 - Vision with Eyes of Blue
 - Ultimate Fusion
 
-### 🛡️ Armadilhas
+#### 🛡️ Armadilhas
 - World Legacy Whispers
 - Icejade Erosion
 - Dinomorphia Domain
@@ -81,14 +83,14 @@ Digite o nome de uma carta de acordo com o tipo (Monstro, Feitiço ou Armadilha)
 
 ---
 
-# ⚠️ Observações
+## ⚠️ Observações
 Certifique-se de estar conectado à internet, pois os dados são carregados via requisições à API pública.
 Digite corretamente o nome da carta (sensível a acentos e pontuação).
 As cartas devem ser buscadas de acordo com seu tipo para obter resultados corretos.
 
 ---
 
-# 🤝 Contribuindo
+## 🤝 Contribuindo
 1. Fork o projeto
 2. Crie uma branch com sua feature
 3. Faça commit das alterações
