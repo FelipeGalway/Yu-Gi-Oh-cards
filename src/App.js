@@ -56,7 +56,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h3>Felipe Ferreira &copy;</h3>
+        <div className="header-content">
+          <img src="/img/Avatar.png" alt="Avatar" className="avatar" />
+          <h3>Felipe Ferreira &copy;</h3>
+        </div>
       </header>
 
       <div className="banner"></div>
@@ -109,7 +112,10 @@ function App() {
       <div className="banner"></div>
 
       <footer>
-        <h3>Felipe Ferreira &copy;</h3>
+        <div className="footer-content">
+          <img src="/img/Avatar.png" alt="Avatar" className="avatar" />
+          <h3>Felipe Ferreira &copy;</h3>
+        </div>
       </footer>
 
     </div>

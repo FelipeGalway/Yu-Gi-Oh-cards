@@ -15,6 +15,13 @@ header {
   z-index: 999; 
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 footer {
   background-color: gold;
   color: #000000;
@@ -25,6 +32,21 @@ footer {
   bottom: 0;
   left: 0;
   z-index: 999; 
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 4px #0002; 
 }
 
 h1 {
@@ -91,5 +113,5 @@ button:hover {
 }
 
 .banner {
-  height: 18px;
+  height: 30px;
 }
